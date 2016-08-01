@@ -1,0 +1,37 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron { 
+	text-align:left;
+	background-image: url(../images/cover.jpg);
+	color: white;
+	background-position: left center; 
+}
+
+
+.jumbotron h1 { 
+	margin-top:0px;
+	margin-bottom:70px; 
+}
+
+.jumbotron p {  
+	margin-bottom:30px;
+	font-size: 30px;
+}
+
+.btn-lg { 
+	font-size:36px;
+	margin-bottom: 140px;
+}
+
+.homepage {
+	text-align: center;
+}
+
+footer { 
+	text-align:center;
+}
